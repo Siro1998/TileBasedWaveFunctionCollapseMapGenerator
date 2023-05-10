@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4762160459960739893
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d27eba2155c886489c1bbdba4b01666, type: 3}
+  m_Name: Colorize
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  mode:
+    overrideState: 0
+    value: 0
+  intensity:
+    overrideState: 1
+    value: 1
+  colorRamp:
+    overrideState: 1
+    value: {fileID: 2800000, guid: 33f1e29958f0470408dcdccdbc83359e, type: 3}
+    defaultState: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: Demo_Colorize
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: -4762160459960739893}
+--- !u!114 &114809576666829494
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d27eba2155c886489c1bbdba4b01666, type: 3}
+  m_Name: Colorize
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  mode:
+    overrideState: 0
+    value: 0
+  intensity:
+    overrideState: 1
+    value: 1
+  colorRamp:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
+--- !u!114 &8354569609655903479
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Colorize
+  m_EditorClassIdentifier: sc.posteffects.runtime:SCPE:Colorize
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  mode:
+    overrideState: 0
+    value: 0
+  intensity:
+    overrideState: 1
+    value: 0.683
+  colorRamp:
+    overrideState: 1
+    value: {fileID: 2800000, guid: 33f1e29958f0470408dcdccdbc83359e, type: 3}
+    defaultState: 1
